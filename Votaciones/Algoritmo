@@ -1,0 +1,11 @@
+def Sistema_votos(edad):
+    edad_mínima = edad > 18
+    if edad_mínima:
+        print("Puedes votar")
+    else:
+        print("No puedes votar")
+    return edad_mínima
+
+#Ejemplo de uso:
+edad = int(input("Introduce tu edad: "))
+Sistema_votos(edad)

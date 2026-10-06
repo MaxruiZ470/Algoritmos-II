@@ -1,0 +1,13 @@
+Nombre: Sistema_IMC
+Entrada: peso, altura
+Salida: imc, categoria
+ imc = peso / (altura * altura)
+Si imc < 18.5 Entonces
+        categoria ← "bajo peso"
+Sino Si imc < 25 Entonces
+        categoria ← "normal"
+Sino
+        categoria ← "obeso"
+    
+
+Devolver: imc, categoria

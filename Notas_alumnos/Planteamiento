@@ -1,0 +1,15 @@
+Nombre: Sistema_Notas
+Entrada: nota
+Salida: categoria
+
+Proceso:
+    Si nota < 5 Entonces
+        categoria ← "suspenso"
+    Sino Si nota < 7 Entonces
+        categoria ← "aprobado"
+    Sino Si nota < 9 Entonces
+        categoria ← "notable"
+    Sino
+        categoria ← "sobresaliente"
+
+Devolver: categoria

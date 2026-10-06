@@ -1,0 +1,5 @@
+Nombre: Sistema_votos
+Entrada: edad
+Salida: edad_mínima
+edad_mínima = edad > 18
+Devolver: edad_mínima
